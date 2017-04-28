@@ -1,0 +1,128 @@
+a {
+  color: #484848;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF5A5F;
+  cursor: pointer;
+}
+
+.header {
+  margin-bottom: 24px;
+  padding: 0 24px;
+}
+
+.header .logo {
+  color: #FF5A5F;
+  float: left;
+  font-size: 34px;
+  padding: 15px 0;
+}
+
+.nav-primary ul {
+  display: table-cell;
+  float: right;
+}
+
+.nav-primary li {
+  display: table-cell;
+}
+
+.nav-primary li a {
+  display: inline-block;
+  height: 64px;
+  line-height: 64px;
+  padding: 0 16px;
+}
+
+.nav li a {
+  display: inline-block;
+}
+
+.nav-secondary {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  margin-bottom: 75px;
+  padding: 0 24px;
+  text-transform: uppercase;
+}
+
+.nav-secondary li {
+  display: inline-block;
+  line-height: 15px;
+  margin-right: 24px;
+  padding-bottom: 12px;
+}
+
+.nav-secondary li.active {
+  border-bottom: 2px solid #008489;
+}
+
+.nav-secondary li.active a {
+  color: #008489;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: -0.6px;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+
+.slider-wrap-container {
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.slider-wrap {
+  margin: auto;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+
+.slider-card-container {
+  margin: 0 -8px;
+  overflow: visible;
+  transition: -ms-transform 0.5s,-webkit-transform 0.5s,transform 0.5s;
+  white-space: nowrap;
+}
+
+.slider-card {
+  display: inline-block;
+  width: 20%;
+}
+
+.slider-card-wrap {
+  margin: 0 8px;
+}
+
+.slider-card img {
+  width: 100%;
+}
+
+.arrow {
+  display: block;
+  fill: rgb(118, 118, 118);
+  height: 24px;
+  width: 24px;
+}
+
+.slider-controls {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+}
+
+.arrowLeft {
+  left: -30px;
+  position: absolute;
+}
+
+.arrowRight {
+  right: -30px;
+  position: absolute;
+}
